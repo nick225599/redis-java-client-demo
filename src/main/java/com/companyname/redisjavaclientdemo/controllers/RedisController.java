@@ -44,7 +44,7 @@ public class RedisController {
         log.info("连接成功");
 
         OutputStream outputStream = s.getOutputStream();
-        outputStream.write(temp.getBytes(StandardCharsets.UTF_8));
+        outputStream.write(temp.getBytes(StandardCharsets.UTF_16LE));
         outputStream.flush();
         log.info("flush");
         log.info("os class name: {}", outputStream.getClass().getName());
