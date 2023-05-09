@@ -46,7 +46,7 @@ public class SocketWriterTest {
         os.flush();
         String temp;
 
-        String name = "凭他老板姓";
+        String name = "千里共婵娟";
         temp =
                 "*3\r\n"
                 + "$3\r\n"
