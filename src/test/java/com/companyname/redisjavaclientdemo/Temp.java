@@ -1,6 +1,9 @@
 package com.companyname.redisjavaclientdemo;
 
 import java.io.IOException;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
 
 public class Temp {
     public static void main(String[] args) throws InterruptedException, IOException {
@@ -20,6 +23,10 @@ public class Temp {
         byte[] bytes = Character.valueOf(c).toString().getBytes();
         for(byte b: bytes)
             System.out.println(Integer.toBinaryString(b));
+
+        String tmp ="";
+        OutputStream os = System.out;
+        Writer writer = new OutputStreamWriter(os);
 
     }
 }
