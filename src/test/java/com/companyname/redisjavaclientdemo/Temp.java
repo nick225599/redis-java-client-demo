@@ -12,7 +12,7 @@ public class Temp {
         System.out.println((int )c);
         System.out.println();
         System.out.println("中转换成 int 再转换成二进制");
-        System.out.println(Integer.toBinaryString((int )c));
+        System.out.println(Integer.toBinaryString(c));
 //          01001110 00101101
 
 //        11111111111111111111111111100100
